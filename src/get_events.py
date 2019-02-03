@@ -56,8 +56,8 @@ def create_event_file():
         pids.append(i)
         labels.append(1)
     for j,event in enumerate(aftershocks):
-        lats.append(mainshock.lat-event.lat-2)
-        lons.append(mainshock.lon-event.lon-2)
+        lats.append(mainshock.lat-event.lat)
+        lons.append(mainshock.lon-event.lon)
         pids.append(i+j)
         labels.append(-1)
 
