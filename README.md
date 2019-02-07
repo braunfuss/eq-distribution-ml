@@ -8,6 +8,6 @@ The position of the shocks are calculated relative to the origin of the mainshoc
 
 To execute you have to run run.py, where you can also modify how many neurons and hidden layers should be considered under the class Run() (sorry again for the mess but at this stage a config file would make no sense). A lot of the options are hardcoded there. They are the same options as available on the playground demo.
 
-I recommend that you first test it if you like by setting test = True in run.py. 
+I recommend that you first test its functionality by setting test = True in run.py. 
 Then it will just use a gaussian distributed example(you can also generate other example with dataset.py to match the ones in the playground). 
 The output will be generated in the folder above in the folder outputs, including images of the model and data distributions as on the playground. 
